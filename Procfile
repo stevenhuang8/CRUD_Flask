@@ -1,1 +1,1 @@
-web: gunicorn flash_tutorial.flaskr:app
+web: gunicorn wsgi:app
